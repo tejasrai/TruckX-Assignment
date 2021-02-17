@@ -1,47 +1,46 @@
 {
-  "name": "opa-bronzer-web-client",
+  "name": "react-reqres.in-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ant-design/icons": "^4.4.0",
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.3",
-    "@testing-library/user-event": "^12.6.2",
-    "antd": "^4.11.2",
-    "axios": "^0.21.1",
-    "moment": "^2.29.1",
+    "@redux-saga/testing-utils": "^1.0.2",
+    "antd": "^4.12.3",
+    "axios": "^0.18.0",
+    "history": "^4.9.0",
+    "lodash": "^4.17.11",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-jwt": "^1.1.2",
-    "react-query": "^3.6.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.1",
-    "web-vitals": "^0.2.4"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.2",
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "proxy": "https://reqres.in/api"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "react-test-renderer": "^16.8.6"
+  }
 }

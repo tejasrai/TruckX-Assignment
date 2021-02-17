@@ -3,7 +3,7 @@ import { bindActionCreators } from "redux";
 import * as actions from "./actions";
 import { connect } from "react-redux";
 import PublicHead from "../../components/publicHead";
-import DefaultLayout from "../../layouts/defaultLayout";
+ import DefaultLayout from "../../layouts/defaultLayout";
 import PropTypes from "prop-types";
 
 export class Add extends Component {
