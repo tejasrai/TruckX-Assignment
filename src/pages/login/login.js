@@ -74,7 +74,6 @@ export class Login extends Component {
                   {loading ? <><i className="fas fa-spinner  fa-spin"/> loading ...</> : "Login"}
               </button>
             </div>
-              <span>Don't have an account? <NavLink exact to='/signup'> Sign up</NavLink> </span>
           </form>
         </div>
       </DefaultLayout>
