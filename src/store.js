@@ -19,6 +19,7 @@ const rootSaga = function*() {
     ...Edit.sagas,
     ...Add.sagas
   ]);
+  
 };
 const sagaMiddleware = createSagaMiddleware();
 const logger = createLogger();

@@ -16,7 +16,7 @@ export class UsersList extends Component {
       this.request();
     }
   }
-  handleLoadMore = e => {
+ handleLoadMore = e => {
     e.preventDefault();
     //add new data
     this.request();
