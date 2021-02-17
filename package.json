@@ -1,15 +1,23 @@
 {
-  "name": "customer-project",
+  "name": "opa-bronzer-web-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.4.0",
     "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.7.1",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "antd": "^4.11.2",
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2",
-    "web-vitals": "^1.1.0"
+    "react-jwt": "^1.1.2",
+    "react-query": "^3.6.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://reqres.in/api"
 }
